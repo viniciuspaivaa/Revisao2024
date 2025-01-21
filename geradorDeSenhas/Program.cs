@@ -54,15 +54,18 @@ char[] hangeArray = hange.ToCharArray();
 
 do
 {
-    for(z = 1; z < size; z++)
+    for(z = 0; z < size; z++)
     {
         int a = random.Next(0, hangeArray.Length);
-        
         password += hangeArray[a];
-
-        error = special && charSpecial.Contains(hangeArray[a]) ? false : true;
     }
 
-}while(!error);
+    error = special && password.Any(p => charSpecial.Contains(p)) && num && password.Any(p => charNum.Contains(p)) && letter && password.Any(p => charLetter.Contains(p)) ? false : true;
+    if(error)
+    {
+        password="";
+        z = 0;    
+    }
+}while(error);
 
 Console.Write("Senha gerada: " + password);
