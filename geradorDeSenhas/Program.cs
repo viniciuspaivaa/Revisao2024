@@ -42,6 +42,8 @@ while(!int.TryParse(Console.ReadLine(), out i) || i > 2 || i < 0)
 }
 letter = i == 1 ? true : false;
 
+Console.Clear();
+
 string charSpecial = "!@#$%&*()_+={}[]^~:><.,";
 string charNum = "0123456789";
 string charLetter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -68,4 +70,6 @@ do
     }
 }while(error);
 
+// File.WriteAllText("bkp.txt", password);
+File.AppendAllText("bkp.txt", password + Environment.NewLine);
 Console.Write("Senha gerada: " + password);
