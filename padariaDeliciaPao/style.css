@@ -12,6 +12,10 @@
     font-family: "Poppins", serif;
 }
 
+p {
+    margin-bottom: 0px !important;
+}
+
 header {
     background-color: #FFBD59;
     width: 100%;
@@ -39,20 +43,32 @@ nav{
 
 #title {
     font-family: 'Railey', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    margin: 30px 0px 20px;
+}
+
+#cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .subtitle {
-    text-align: center;
-    padding: 20px 20px 0px 20px;
+    padding: 20px;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Railey', sans-serif;
+    text-align: start;
 }
 
-#card-container {
+.card-container {
     display: flex;
     justify-content: center;
     gap: 15px;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 15px 20px 15px;
 }
 
 .card {
@@ -63,6 +79,43 @@ nav{
     font-size: 12px;
 }
 
+/* #subtitle-01 {
+    /* background-color: #F5E4C3;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(245,228,195) 55%, rgba(245,228,195))
+}
+
+#card-container-01 {
+    background-color: #F5E4C3;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(245,228,195) 55%, rgba(245,228,195));
+} */
+
+#subtitle-02 {
+    text-align: end;
+    /* color: white;
+    background-color: rgb(68, 68, 68);
+    background: linear-gradient(rgba(245,228,195, 0.5), rgba(68,68,68) 10%, rgba(68,68,68)) */
+}
+
+/*#card-container-02 {
+    background-color: rgb(68, 68, 68);
+}
+
+#btn-02 {
+    background-color: rgb(68, 68, 68) !important;
+}
+
+#subtitle-03 {
+    background-color: #F9D97E;
+}
+
+#card-container-03 {
+    background-color: #F9D97E;
+}
+
+#btn-03 {
+    background-color: #F9D97E !important;
+} */
+
 .btn-primary {
     background-color: #FFBD59 !important;
     border: 0 !important;
@@ -70,7 +123,7 @@ nav{
 }
 
 @media (max-width: 768px) {
-    #card-container {
+    .card-container {
         flex-wrap: wrap;
     }
 }
