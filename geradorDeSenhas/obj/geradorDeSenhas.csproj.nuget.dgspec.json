@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\Documents\\Revisao2024\\geradorDeSenhas\\geradorDeSenhas.csproj": {}
+    "C:\\Users\\Alunos\\Desktop\\Revisao2024\\geradorDeSenhas\\geradorDeSenhas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\Documents\\Revisao2024\\geradorDeSenhas\\geradorDeSenhas.csproj": {
+    "C:\\Users\\Alunos\\Desktop\\Revisao2024\\geradorDeSenhas\\geradorDeSenhas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\Documents\\Revisao2024\\geradorDeSenhas\\geradorDeSenhas.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\Desktop\\Revisao2024\\geradorDeSenhas\\geradorDeSenhas.csproj",
         "projectName": "geradorDeSenhas",
-        "projectPath": "C:\\Users\\Alunos\\Documents\\Revisao2024\\geradorDeSenhas\\geradorDeSenhas.csproj",
+        "projectPath": "C:\\Users\\Alunos\\Desktop\\Revisao2024\\geradorDeSenhas\\geradorDeSenhas.csproj",
         "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\Documents\\Revisao2024\\geradorDeSenhas\\obj\\",
+        "outputPath": "C:\\Users\\Alunos\\Desktop\\Revisao2024\\geradorDeSenhas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
